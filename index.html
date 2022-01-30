@@ -10,6 +10,10 @@
 
     <!-- Bootstrap Icon -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+
+    <!-- AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
     <!-- my css -->
     <link rel="stylesheet" href="index.css" />
 
@@ -37,11 +41,9 @@
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Lainya </a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="#contact">contact</a></li>
+                <li><a class="dropdown-item" href="#gallery">Gallery</a></li>
                 <li><hr class="dropdown-divider" /></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li><hr class="dropdown-divider" /></li>
-                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                <li><a class="dropdown-item" href="#contact">Contact</a></li>
               </ul>
             </li>
           </ul>
@@ -53,7 +55,7 @@
     <section class="jumbotron text-center">
       <img src="IMG/IMG_5595.JPG" alt="Aria Priawan Yahya" width="200" class="rounded-circle img-thumbnail" />
       <h1 class="display-4">Aria Priawan Yahya</h1>
-      <p class="lead">Video Editor/Programer</p>
+      <p class="lead"></p>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path
           fill="#ffff"
@@ -65,17 +67,17 @@
     <!-- end -->
     <!-- About -->
     <section id="About">
-      <div class="container">
+      <div class="container" data-aos="fade-down">
         <div class="row text-center mb-3">
           <div class="col">
             <h2>About Me</h2>
           </div>
         </div>
         <div class="row justify-content-center fs-6 text-center">
-          <div class="col-md-4">
+          <div class="col-md-4"data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="200">
             <p>Saya adalah seorang video editor, Saya lulusan sekolah dari jurusan Multimedia yang mempelajari beberapa tentang ilmu editing dan desain grafis. Saya juga telah mempunyai sertifikat magang disebuah perusahaan media berita onlen dan nilai editing nya cukup membuat saya sangat memuaskan. Di sana saya juga mendapatkan ilmu mendesain yang sangat bermanfaat bagi saya ke depan nya.</p>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-4"data-aos="zoom-in" data-aos-duration="1000" >
             <p>Saya sering megerjakan beberapa project claien saya. di antaranya seperti membuat video dokumentasi, video preewed, video untuk promosi barang dan banyak lain nya. Aplikasi yang saya gunakan cukup sederhana diantaranya seperti adobe premier, filmora dan beberapa tambahan aplikasi android seperti kine master, capcut, dan VN edditng video </p>
           </div>
         </div>
@@ -91,13 +93,14 @@
     <!-- end -->
     <!-- Project -->
 <section id="projects">
-  <div class="container">
-    <div class="row text-center mb-3">
-      <div class="col mb-3">
+  <div class="container" >
+    <div class="row text-center" data-aos="fade-down">
+        <div class="col mb-3" >
         <h2>My Projects</h2>
-      </div>
+        </div>
+    </div>
       <div class="row justify-content-center">
-        <div class="col-md-4 mb-3">
+        <div class="col-md-4 mb-3" data-aos="flip-left" data-aos-duration="1000">
           <div class="card">
             <img
               src="IMG\Project\1.jpg"
@@ -112,7 +115,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md-4 mb-3">
+        <div class="col-md-4 mb-3" data-aos="flip-left" data-aos-duration="1000" data-aos-delay="100">
           <div class="card">
             <img
               src="IMG\Project\2.jpg"
@@ -127,7 +130,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md-4 mb-3">
+        <div class="col-md-4 mb-3" data-aos="flip-left" data-aos-duration="1000" data-aos-delay="200">
           <div class="card">
             <img
               src="IMG\Project\3.jpg"
@@ -142,7 +145,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md-4 mb-3">
+        <div class="col-md-4 mb-3" data-aos="flip-left" data-aos-duration="1000" data-aos-delay="300">
           <div class="card">
             <img
               src="IMG\Project\4.jpg"
@@ -157,7 +160,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md-4 mb-3">
+        <div class="col-md-4 mb-3" data-aos="flip-left" data-aos-duration="1000" data-aos-delay="400">
           <div class="card">
             <img
               src="IMG\Project\5.jpg"
@@ -184,11 +187,80 @@
   </svg>
 </section>
 <!-- End -->
+<!-- Galeri -->
+<section id="gallery">
+  <div class="container">
+    <div class="row text-center mb-3" data-aos="fade-down">
+      <div class="col mb-3">
+        <h2>Gallery</h2>
+      </div>
+    </div>
+    <div class="row justify-content-center">
+      <div class="col-md-3">
+        <a href="">
+          <img src="IMG/Foto/6.jpg" alt="Gambar6" class="img-fluid gallery-img">
+        </a>
+      </div>
+      <div class="col-md-3">
+        <a href="">
+          <img src="IMG/Foto/7.jpg" alt="Gambar7" class="img-fluid gallery-img">
+        </a>
+      </div>
+      <div class="col-md-3">
+        <a href="">
+          <img src="IMG/Foto/8.jpg" alt="Gambar8" class="img-fluid gallery-img">
+        </a>
+      </div>
+      <div class="col-md-3">
+        <a href="">
+          <img src="IMG/Foto/9.jpg" alt="Gambar9" class="img-fluid gallery-img">
+        </a>
+      </div>
+      <div class="col-md-3">
+        <a href="">
+          <img src="IMG/Foto/10.jpg" alt="Gambar10" class="img-fluid gallery-img">
+        </a>
+      </div>
+      <div class="col-md-3">
+        <a href="">
+           <img src="IMG/Foto/11.jpg" alt="Gambar11" class="img-fluid gallery-img">
+        </a>
+      </div>
+      <div class="col-md-3">
+        <a href="">
+          <img src="IMG/Foto/12.jpg" alt="Gambar12" class="img-fluid gallery-img">
+        </a>
+      </div>
+      <div class="col-md-3">
+        <a href="">
+          <img src="IMG/Foto/13.jpg" alt="Gambar13" class="img-fluid gallery-img">
+        </a>
+      </div>
+      <div class="col-md-3">
+        <a href="">
+          <img src="IMG/Foto/14.jpg" alt="Gambar14" class="img-fluid gallery-img">
+        </a>
+      </div>
+      <div class="col-md-3">
+        <a href="">
+          <img src="IMG/Foto/15.jpg" alt="Gambar15" class="img-fluid gallery-img">
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
     <!-- End -->
     <!-- Contac -->
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <path
+        fill="#e2edff"
+        fill-opacity="1"
+        d="M0,128L26.7,154.7C53.3,181,107,235,160,218.7C213.3,203,267,117,320,112C373.3,107,427,181,480,192C533.3,203,587,149,640,154.7C693.3,160,747,224,800,208C853.3,192,907,96,960,74.7C1013.3,53,1067,107,1120,133.3C1173.3,160,1227,160,1280,138.7C1333.3,117,1387,75,1413,53.3L1440,32L1440,320L1413.3,320C1386.7,320,1333,320,1280,320C1226.7,320,1173,320,1120,320C1066.7,320,1013,320,960,320C906.7,320,853,320,800,320C746.7,320,693,320,640,320C586.7,320,533,320,480,320C426.7,320,373,320,320,320C266.7,320,213,320,160,320C106.7,320,53,320,27,320L0,320Z"
+      ></path>
+    </svg>
     <section id="contact">
       <div class="container">
-        <div class="row text-center mb-3">
+        <div class="row text-center">
           <div class="col mb-3">
             <h2>Contact Me</h2>
           </div>
@@ -216,9 +288,9 @@
           </div>
         </div>
       </div>
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <svg class="svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path
-          fill="#ffff"
+          fill="#e2edff"
           fill-opacity="1"
           d="M0,128L26.7,154.7C53.3,181,107,235,160,218.7C213.3,203,267,117,320,112C373.3,107,427,181,480,192C533.3,203,587,149,640,154.7C693.3,160,747,224,800,208C853.3,192,907,96,960,74.7C1013.3,53,1067,107,1120,133.3C1173.3,160,1227,160,1280,138.7C1333.3,117,1387,75,1413,53.3L1440,32L1440,320L1413.3,320C1386.7,320,1333,320,1280,320C1226.7,320,1173,320,1120,320C1066.7,320,1013,320,960,320C906.7,320,853,320,800,320C746.7,320,693,320,640,320C586.7,320,533,320,480,320C426.7,320,373,320,320,320C266.7,320,213,320,160,320C106.7,320,53,320,27,320L0,320Z"
         ></path>
@@ -227,10 +299,36 @@
     <!-- End -->
     <!-- Footer -->
     <footer class="bg-primary text-white text-center p-3">
-    <p>Created By <i class="bi bi-code-square"></i> <a href="https://www.instagram.com/ariapriawan12/" class="text-white fw-bold">Aria Priawan Yahya</a>
+    <p>Created By <i class="bi bi-code-square"></i> <a href="https://www.instagram.com/ariapriawannn/" class="text-white fw-bold">Aria Priawan Yahya</a>
     </footer>
     <!-- End -->
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+    <script>
+      const galleryImage = document.querySelectorAll('.gallery-img');
+      galleryImage.forEach((img, i) => {
+        img.dataset.aos = 'flip-down';
+        img.dataset.aosDelay = i * 100;
+        img.dataset.aosDuration = 1000;
+      });
+
+      AOS.init({
+        once: true,
+      });
+    </script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/TextPlugin.min.js"></script>
+    <script>
+    gsap.registerPlugin(TextPlugin);
+    gsap.to('.lead', { duration: 2, delay: 1.5, text: 'Video Editor | Programer' });
+    gsap.from('.jumbotron img', {duration: 1, y: -100, opacity: 0, delay: 0.5, ease: 'back'});
+    gsap.from('.navbar', {duration: 1.5, y: '-100%', opacity: 0, ease: 'bounce'});
+    gsap.from('.display-4', {duration: 1, x: -50, opacity: 0, delay: 0.7,  ease: 'back'});
+    </script>
+
   </body>
 </html>

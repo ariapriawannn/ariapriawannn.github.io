@@ -3,10 +3,65 @@
   background-color: #e2edff;
 }
 
+.navbar-brand {
+  font-family: georgia;
+}
+
+/* Project */
 #projects {
   background-color: #e2edff;
+  margin-bottom: -10%;
+}
+
+#projects .col {
+  font-family: "lucida sans";
+}
+/* End */
+
+#About .col {
+  font-family: "lucida sans";
 }
 
 section {
   padding-top: 5rem;
+}
+
+/* Galery */
+.gallery-img {
+  width: 100%;
+}
+
+#gallery .row > * {
+  padding: 0%;
+}
+
+#gallery {
+  margin-bottom: %;
+}
+
+#gallery .col {
+  font-family: "Lucida Sans";
+}
+/* end */
+
+/* Contact */
+#contact {
+  background-color: #e2edff;
+  margin-bottom: ;
+  padding-bottom: ;
+}
+
+#contact .col {
+  font-family: "lucida sans";
+}
+
+#contact .svg {
+  background-position: 0%;
+}
+/* end */
+
+.display-4 {
+  font-family: Georgia;
+  margin-bottom: ;
+  margin-top: 1%;
 }
